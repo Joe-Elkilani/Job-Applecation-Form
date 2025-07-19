@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Job Applecation Form</title>
+</head>
+<body>
+
+    <div class="app">
+        <form class="form">
+            <header>
+                <h2 class="title">Job Application Form</h2>
+            </header>
+            <div class="fullName inp">
+                <label for="fName">Full Name:</label>
+                <input type="text" id="fName" name="fName" placeholder="Enter your full name" required>
+            </div>
+            <div class="email inp">
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email address" required>
+            </div>
+            <div class="phone inp">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your Phone number" required>
+            </div>
+            <div class="dateOfBirth inp">
+                <label for="dateOfBirth">Date Of Birth:</label>
+                <input type="date" id="dateOfBirth" name="phone" placeholder="Enter your Date Of Birth" required>
+            </div>
+            <div class="gender inp">
+                <header>
+                    <h2>gander</h2>
+                </header>
+                <div class="genderOptions">
+                    <div class="male">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="male">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">FeMale</label>
+                    </div>
+                </div>    
+            </div>
+            <div class="joePostion">
+                <label for="position">Desired Job Postion:</label>
+                <select id="position" name="position" required>
+                    <option value="" disabled selected>Desired Job Postion</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                </select>
+            </div>
+            <div class="joePostion">
+                <label for="letter">Cover Letter (optional):</label>
+                <textarea name="letter" id="letter" placeholder="Write your cover letter"></textarea>
+            </div>
+            <button>Submit Applecation</button>
+        </form>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

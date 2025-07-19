@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 15px;
+    color: #777;
+}
+
+input {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.inp header h2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.genderOptions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.genderOptions label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: #dc3545;
+    margin-top: 5px;
+}
+
+.joePostion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.joePostion label {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+select, textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+    max-width: 100%;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
